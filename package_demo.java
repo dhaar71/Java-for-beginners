@@ -1,9 +1,10 @@
 
+
 import Packages.calculator.advcalc; 
 import Packages.calculator.calc;
 
 
-public class demo  {
+public class package_demo  {
 
     public static void main(String args[]){
 
