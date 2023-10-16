@@ -1,7 +1,4 @@
-
-
-import static_keyword.human;
-
+package static_keyword;
 public class static_demo {
     public static void main(String args[]){
         human h1=new human(12,"dharmi", 900000);
