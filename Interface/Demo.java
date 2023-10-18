@@ -4,7 +4,6 @@ package Interface;
 //class -> interface = implements
 //interface -> interface= extends again
 
-import B;
 
 interface A{
 
