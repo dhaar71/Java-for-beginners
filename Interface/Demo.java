@@ -5,8 +5,7 @@ package Interface;
 //interface -> interface= extends again
 
 
-interface A{
-
+public interface A{
     int age=19;    //final and static variables
     String Name= "Dharmi"; 
     void show();

@@ -1,6 +1,3 @@
-import Interface.A;
-import Interface.B;
-
 class A //every class in java extends object class 
 { //super class : The super keyword in Java is a reference variable which is used to refer immediate parent class object.
     public A(){

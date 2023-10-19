@@ -1,1 +1,0 @@
- // int nums[]= new int[5];

@@ -1,7 +1,7 @@
 public class multiple_catch {
     public static void main(String[] args) {
         int i=1;
-        int j;
+        int j=0;
         int nums[]= new int[5];
         String str= null;
         try{
