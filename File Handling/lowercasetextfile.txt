@@ -1,0 +1,6 @@
+this is text file for program which reads this file and 
+converts all text to lowercase 
+and stores to file named loweredtextfile.txt
+this is text file for program which reads this file and 
+converts all text to lowercase 
+and stores to file named loweredtextfile.txt
