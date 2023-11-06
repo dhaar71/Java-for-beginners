@@ -1,3 +1,4 @@
+package Threads;
 class ChildThread1 extends Thread {
     private int n1;
 

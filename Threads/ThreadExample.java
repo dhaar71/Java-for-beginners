@@ -1,3 +1,4 @@
+package Threads;
 class ChildThread1 extends Thread {
     public ChildThread1(String name) {
         super(name);
