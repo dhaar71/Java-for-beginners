@@ -6,11 +6,9 @@ public class encdec {
             System.out.println("Usage: java FileEncryption <filename> <key> <encrypt|decrypt>");
             return;
         }
-
         String filename = args[0];
         int key = Integer.parseInt(args[1]);
         String operation = args[2].toLowerCase();
-
         try {
             if (operation.equals("encrypt")) {
                 encryptFile(filename, key);
@@ -25,14 +23,12 @@ public class encdec {
             e.printStackTrace();
         }
     }
-
     public static void encryptFile(String filename, int key) throws IOException {
         try (InputStream is = new FileInputStream(filename);
              OutputStream os = new FileOutputStream(filename + ".encrypted")) {
             encrypt(is, os, key);
         }
     }
-
     public static void decryptFile(String filename, int key) throws IOException {
         try (InputStream is = new FileInputStream(filename);
              OutputStream os = new FileOutputStream(filename + ".decrypted")) {
