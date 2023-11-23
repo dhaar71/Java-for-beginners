@@ -1,4 +1,4 @@
-package Threads;
+// package Threads;
 class NumberPrinter {
     private int max;
     private int number = 1;

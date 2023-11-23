@@ -1,13 +1,12 @@
 public class multiple_catch {
     public static void main(String[] args) {
-        int i=1;
-        int j=0;
+        int i,j;
+        i=1;
         int nums[]= new int[5];
-        String str= null;
         try{
             j=18/i;
             System.out.println(nums[8]);
-            System.out.println(str.length());
+            
         } 
         catch(ArithmeticException e){
             System.out.println("Cannot divide by zero");

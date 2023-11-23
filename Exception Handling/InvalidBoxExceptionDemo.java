@@ -29,6 +29,7 @@ public class InvalidBoxExceptionDemo {
 
             // Creating a Box with invalid dimensions (zero or negative)
             Box box2 = new Box(0.0, 4.0, 5.0); // Invalid dimension
+            System.out.println("Volume of Box 2: " + box2.getVolume());
         } catch (InvalidBoxException e) {
             System.err.println("InvalidBoxException: " + e.getMessage());
         }

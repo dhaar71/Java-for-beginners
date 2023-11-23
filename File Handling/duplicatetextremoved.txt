@@ -2,3 +2,7 @@ This file contains duplicate line.
 it uses hashset which does not allows duplicate line to allow in file.  
 Java proogram is writtern to remove duolicate lines.
 it uses hashset which does not allows duplicate line to allow in file. 
+This file contains duplicate line.
+it uses hashset which does not allows duplicate line to allow in file.  
+Java proogram is writtern to remove duolicate lines.
+it uses hashset which does not allows duplicate line to allow in file. 

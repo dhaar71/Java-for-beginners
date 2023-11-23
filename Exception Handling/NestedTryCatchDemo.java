@@ -9,6 +9,7 @@ public class NestedTryCatchDemo {
                 int[] array = new int[3];
                 int result = array[4]; // This will throw an ArrayIndexOutOfBoundsException
                 System.out.println("Nested Try Block 1: This line will not be executed");
+                System.out.println(result);
             } catch (ArrayIndexOutOfBoundsException e) {
                 System.err.println("Nested Try Block 1: Caught ArrayIndexOutOfBoundsException");
             }
